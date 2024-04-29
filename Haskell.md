@@ -5,7 +5,7 @@
 3. 如果要运行文件，则输入 `:l 文件名` (这里是字母`l`不是`|`)
 4. 再调用文件内的函数即可
 - `eg`
-  ![本地图片](1.jpg "example1")
+  ![本地图片]([1.jpg](https://github.com/ddggss/Haskell/blob/main/images/1.jpg) "example1")
 
 ## Types 
 ### `:type + expression`：显示表达式的类型
