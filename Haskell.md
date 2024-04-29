@@ -22,7 +22,7 @@
 (type的书写形式为首字母大写!)
 
 ### List types
-A <u>list</u> is a sequence of values of the same type:
+A _list_ is a sequence of values of the same type:
 - `eg: [False, True, False] : : [Bool]`
 - `eg: ['a','b','c','d'] : : [Char]`
 
