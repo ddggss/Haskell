@@ -2,25 +2,27 @@
 ## 编译运行Haskell代码的步骤
 1. 在终端输入 `. /Users/apple/.ghcup/env`
 2. 再输入 `ghci` 开启
-3. 如果要运行文件，则输入 `:l 文件名` (这里是字母`l`不是`|`)
+3. 如果要运行文件，则输入 `:l 文件名` <span style="color:red">(这里是字母`l`不是`|`)</span>
 4. 再调用文件内的函数即可
-- `eg`
+- eg
   ![本地图片](https://github.com/ddggss/Haskell/blob/main/images/1.jpg "example1")
 
 ## Types 
-### `:type + expression`：显示表达式的类型
-- `eg: :type not False`    ---> `not False : : Bool`
+### :type + expression：显示表达式的类型
+- eg: :type not False    ---> not False : : Bool
 
 ### Basic types 基本类型
-- `Bool`      ---- 逻辑值
-- `Char`      ---- 单个字符
-- `String`    ---- 字符序列
-- `Int`       ---- 固定精度整数
-- `Integer`   ---- 任意精度整数
-- `Float`     ---- 浮点数
+- `Bool`      ---- logical values
+- `Char`      ---- single characters
+- `String`    ---- strings of characters
+- `Int`       ---- fixed-precision integers
+- `Integer`   ---- arbitrary-precision integers
+- `Float`     ---- floating-point numbers
+(注意区分Integer为任意精度整数, 而Int为固定精度整数)
+(type的书写形式为首字母大写!)
 
 ### List types
-A list is a sequence of values of the same type:
+A <u>list</u> is a sequence of values of the same type:
 - `eg: [False, True, False] : : [Bool]`
 - `eg: ['a','b','c','d'] : : [Char]`
 
