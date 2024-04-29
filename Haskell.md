@@ -1,9 +1,11 @@
-# Basic knowledges
+## Basic knowledges
 ## 编译运行Haskell代码的步骤
 1. 在终端输入 `. /Users/apple/.ghcup/env`
 2. 再输入 `ghci` 开启
 3. 如果要运行文件，则输入 `:l 文件名` (这里是字母`l`不是`|`)
 4. 再调用文件内的函数即可
+- `eg`
+  ![本地图片](1.jpg "example1")
 
 ## Types 
 ### `:type + expression`：显示表达式的类型
